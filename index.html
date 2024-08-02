@@ -4,11 +4,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    Landing page !
+<body class="page">
+    <div class="page__wrapper">
+        <header class="header">
+            <a href="index.html" class="header__logo">Header logo</a>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#">header link one</a></li>
+                    <li class="header__nav-item"><a href="#">header link two</a></li>
+                    <li class="header__nav-item"><a href="#">header link three</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="heading-section">
+                <div class="heading-section__text">
+                    <h1 class="heading-section__heading">This website is awesome</h1>
+                    <p class="heading-section__description">This website has some subtext that goes here under the main
+                        title. It's a smaller font and the color is lower contrast</p>
+                    <button class="heading-section__button">Sign up</button>
+                </div>
+                <div class="heading-section__image">
+                    <div class="heading-section__image-placeholder">
+                        image placeholder
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="page-slider">
+                <h2 class="page-slider__heading">Some random information</h2>
+                <div class="page-slider__slides">
+                    <ul class="page-slider__slides-list">
+                        <li class="page-slider__slide">
+                            <div class="page-slider__slide-image-placeholder"><img src="" alt=""
+                                    class="page-slider__slide-image"></div>
+                            <p class="page-slider__slide-content">this is some subtext under an illustration or image
+                            </p>
+                        </li>
+                        <li class="page-slider__slide">
+                            <div class="page-slider__slide-image-placeholder"><img src="" alt=""
+                                    class="page-slider__slide-image"></div>
+                            <p class="page-slider__slide-content">this is some subtext under an illustration or image
+                            </p>
+                        </li>
+                        <li class="page-slider__slide">
+                            <div class="page-slider__slide-image-placeholder"><img src="" alt=""
+                                    class="page-slider__slide-image"></div>
+                            <p class="page-slider__slide-content">this is some subtext under an illustration or image
+                            </p>
+                        </li>
+                        <li class="page-slider__slide">
+                            <div class="page-slider__slide-image-placeholder"><img src="" alt=""
+                                    class="page-slider__slide-image"></div>
+                            <p class="page-slider__slide-content">this is some subtext under an illustration or image
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="page-cite">
+                <blockquote class="page-cite__quote">
+                    <p class="page-cite__text">This is an inspiring quote, or a testimonial from a customer. Maybe it's
+                        just
+                        filling up space, or maybe people will actually read it. Who knows? All I know is that it looks
+                        nice.</p>
+                    <footer class="page-cite__author">— Thor, God of Thunder</footer>
+                </blockquote>
+            </section>
+            <section class="page-sign-up">
+                <div class="page-sign-up__container">
+                    <div class="page-sign-up__text">
+                        <h2 class="page-sign-up__heading">Call to action! its time!</h2>
+                        <p class="page-sign-up__text">Sign up for our product by clicking that button right over there
+                        </p>
+                    </div>
+                    <button class="page-sign-up__button">Sign up</button>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__text">Copyright &copy; The Odin Project 2021 </p>
+        </footer>
+    </div>
 </body>
 
 </html>

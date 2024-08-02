@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:hover {
+  color: darkgrey;
+  text-decoration: none;
+}
+
+button {
+  width: max-content;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #3882f6;
+  color: #f9faf8;
+  cursor: pointer;
+}
+
+.page {
+  width: 100%;
+  height: 100vh;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.page__wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 150px;
+}
+
+.header__logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 15px;
+}
+
+.heading-section {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  width: 100%;
+  padding: 50px 150px;
+}
+
+.heading-section__text {
+  max-width: 50%;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.heading-section__heading {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.heading-section__image {
+  background-color: darkgray;
+  width: 50%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 250px 70px;
+}
+
+.page-slider__heading {
+  font-size: 36px;
+  font-weight: 900px;
+  color: #1f2937;
+  margin-bottom: 40px;
+}
+
+.page-slider__slides-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.page-slider__slide {
+  width: 150px;
+}
+
+.page-slider__slide-image-placeholder {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 2px solid #3882f6;
+}
+
+.page-cite {
+  background-color: #e5e7eb;
+  padding: 100px 250px 60px;
+}
+
+.page-cite__text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+.page-cite__author {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: end;
+}
+
+.page-sign-up {
+  padding: 50px 150px;
+  margin: 0 auto;
+}
+
+.page-sign-up__container {
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 40px 100px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-sign-up__button {
+  border: 1px solid #f9faf8;
+  text-align: end;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px 150px;
+}
